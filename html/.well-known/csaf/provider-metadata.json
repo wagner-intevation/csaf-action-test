@@ -48,6 +48,10 @@
     {
       "fingerprint": "02132199001005149C63B966D8EE9116B2AC45E6",
       "url": "https://_/.well-known/csaf/openpgp/02132199001005149C63B966D8EE9116B2AC45E6.asc"
+    },
+    {
+      "fingerprint": "9CCCE4C047F1AD85007BDFB1B5A02320A3461A02",
+      "url": "https://_/.well-known/csaf/openpgp/9CCCE4C047F1AD85007BDFB1B5A02320A3461A02.asc"
     }
   ],
   "publisher": {
