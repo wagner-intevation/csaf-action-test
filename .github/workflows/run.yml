@@ -28,3 +28,4 @@ jobs:
         source_csaf_documents: test/inputs/
         openpgp_secret_key: ${{ secrets.CSAF_OPENPGP_SECRET_KEY }}
         openpgp_key: ${{ secrets.CSAF_OPENPGP_KEY }}
+        generate_index_files: true
