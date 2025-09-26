@@ -1,0 +1,32 @@
+#SPDX-FileCopyrightText: 2025 Intevation GmbH
+#SPDX-License-Identifier: AGPL-3.0-or-later
+#
+name: "CSAF Provider Other Branch"
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  csaf:
+    runs-on: ubuntu-24.04
+    name: Create CSAF documents
+    strategy:
+      fail-fast: false
+
+    steps:
+    - name: Publish CSAF advisories
+      uses: wagner-intevation/csaf-action@targetbranch
+      with:
+        publisher_name: Example Test Company
+        publisher_namespace: https://test.example.com
+        publisher_issuing_authority: "We at Example Test Company are responsible for publishing and maintaining Product Test."
+        publisher_contact_details: "Example Test Company can be reached at contact_us@example.com or via our website at https://test.example.com/contact."
+        source_csaf_documents: test/inputs/
+        openpgp_secret_key: ${{ secrets.CSAF_OPENPGP_SECRET_KEY }}
+        openpgp_key: ${{ secrets.CSAF_OPENPGP_KEY }}
+        generate_index_files: true
+        target_branch: gh-pages-2
