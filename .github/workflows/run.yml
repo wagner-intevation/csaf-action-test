@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Publish CSAF advisories
-      uses: wagner-intevation/csaf-action@main
+      uses: csaf-tools/csaf-action@main
       with:
         publisher_name: Example Test Company
         publisher_namespace: https://test.example.com
@@ -29,3 +29,4 @@ jobs:
         openpgp_secret_key: ${{ secrets.CSAF_OPENPGP_SECRET_KEY }}
         openpgp_key: ${{ secrets.CSAF_OPENPGP_KEY }}
         generate_index_files: true
+        openpgp_use_signatures: false
