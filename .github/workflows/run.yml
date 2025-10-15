@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Publish CSAF advisories
-      uses: csaf-tools/csaf-action@v0.1.0
+      uses: csaf-tools/csaf-action@v0
       with:
         publisher_name: Example Test Company
         publisher_namespace: https://test.example.com
@@ -27,6 +27,6 @@ jobs:
         publisher_contact_details: "Example Test Company can be reached at contact_us@example.com or via our website at https://test.example.com/contact."
         source_csaf_documents: test/inputs/
         openpgp_secret_key: ${{ secrets.CSAF_OPENPGP_SECRET_KEY }}
-        openpgp_key: ${{ secrets.CSAF_OPENPGP_KEY }}
+        openpgp_public_key: ${{ secrets.CSAF_OPENPGP_KEY }}
         generate_index_files: true
         openpgp_use_signatures: false
