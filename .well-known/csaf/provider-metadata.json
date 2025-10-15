@@ -40,14 +40,14 @@
       "directory_url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/red"
     }
   ],
-  "last_updated": "2025-09-29T20:04:38Z",
+  "last_updated": "2025-10-15T09:05:58Z",
   "list_on_CSAF_aggregators": true,
   "metadata_version": "2.0",
   "mirror_on_CSAF_aggregators": true,
   "public_openpgp_keys": [
     {
-      "fingerprint": "2AFAB5FEB88253A0985CD919D29FB4A8BE9BB5B4",
-      "url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/openpgp/2AFAB5FEB88253A0985CD919D29FB4A8BE9BB5B4.asc"
+      "fingerprint": "9CCCE4C047F1AD85007BDFB1B5A02320A3461A02",
+      "url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/openpgp/9CCCE4C047F1AD85007BDFB1B5A02320A3461A02.asc"
     }
   ],
   "publisher": {
