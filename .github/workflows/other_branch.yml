@@ -30,3 +30,4 @@ jobs:
         openpgp_public_key: ${{ secrets.CSAF_OPENPGP_KEY }}
         generate_index_files: true
         target_branch: gh-pages-2
+        openpgp_use_signatures: false
