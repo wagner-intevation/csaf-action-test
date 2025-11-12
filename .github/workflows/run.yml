@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Publish CSAF advisories
-      uses: csaf-tools/csaf-action@v0
+      uses: csaf-tools/csaf-action@security
       with:
         publisher_name: Example Test Company
         publisher_namespace: https://test.example.com
@@ -30,3 +30,4 @@ jobs:
         openpgp_public_key: ${{ secrets.CSAF_OPENPGP_KEY }}
         generate_index_files: true
         openpgp_use_signatures: false
+        write_security: true
