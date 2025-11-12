@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Publish CSAF advisories
-      uses: csaf-tools/csaf-action@security
+      uses: csaf-tools/csaf-action@main
       with:
         publisher_name: Example Test Company
         publisher_namespace: https://test.example.com
@@ -31,3 +31,4 @@ jobs:
         generate_index_files: true
         openpgp_use_signatures: false
         write_security: true
+        html_title: CSAF Advisories Test
