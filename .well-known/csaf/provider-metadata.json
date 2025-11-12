@@ -8,39 +8,15 @@
             "summary": "TLP:WHITE advisories",
             "tlp_label": "WHITE",
             "url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/white/csaf-feed-tlp-white.json"
-          },
-          {
-            "summary": "TLP:GREEN advisories",
-            "tlp_label": "GREEN",
-            "url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/green/csaf-feed-tlp-green.json"
-          },
-          {
-            "summary": "TLP:AMBER advisories",
-            "tlp_label": "AMBER",
-            "url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/amber/csaf-feed-tlp-amber.json"
-          },
-          {
-            "summary": "TLP:RED advisories",
-            "tlp_label": "RED",
-            "url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/red/csaf-feed-tlp-red.json"
           }
         ]
       }
     },
     {
       "directory_url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/white"
-    },
-    {
-      "directory_url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/green"
-    },
-    {
-      "directory_url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/amber"
-    },
-    {
-      "directory_url": "https://wagner-intevation.github.io/csaf-action-test/.well-known/csaf/red"
     }
   ],
-  "last_updated": "2025-11-12T08:54:36Z",
+  "last_updated": "2025-11-12T09:22:34Z",
   "list_on_CSAF_aggregators": true,
   "metadata_version": "2.0",
   "mirror_on_CSAF_aggregators": true,
